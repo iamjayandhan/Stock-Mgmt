@@ -1,0 +1,76 @@
+/* Main container styles */
+.page_404 {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    flex-direction: column; /* Stack items vertically */
+    background: #fff;
+    font-family: "Arvo", serif;
+    height: 80vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text inside the page */
+}
+
+/* Background image container */
+.four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    background-size: contain; /* Ensure the image fits within the container */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    width: 100%; /* Full width */
+    height: 10%; /* Increase height for larger image */
+    display: flex; /* Flexbox for centering the 404 text */
+    justify-content: center; /* Horizontally center the 404 text */
+    align-items: center; /* Vertically center the 404 text */
+}
+
+/* 404 text */
+.four_zero_four_text {
+    font-size: 100px; /* Large font size for 404 */
+    color: #000; /* Ensure text color is visible */
+    margin: 0; /* Remove margin to avoid extra space */
+    font-weight: lighter;
+}
+
+/* Content box styles */
+.contant_box_404 {
+    margin-top: 20px; /* Add some space above the content box */
+}
+
+.contant_box_404 h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 300; /* Light font weight */
+}
+
+.contant_box_404 p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 300; /* Light font weight */
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    font-size: 16px; /* Font size for the button */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .four_zero_four_text {
+        font-size: 80px; /* Smaller font size for 404 text on mobile */
+    }
+
+    .contant_box_404 h3 {
+        font-size: 20px; /* Smaller heading for mobile */
+    }
+
+    .contant_box_404 p {
+        font-size: 16px; /* Smaller paragraph font size on mobile */
+    }
+}
