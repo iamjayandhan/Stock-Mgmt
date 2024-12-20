@@ -1,40 +1,36 @@
-/* Main container styles */
 .page_404 {
-    display: flex; /* Enable flexbox */
-    justify-content: center; /* Horizontally center content */
-    align-items: center; /* Vertically center content */
-    flex-direction: column; /* Stack items vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
     background: #fff;
     font-family: "Arvo", serif;
-    height: 80vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
-    text-align: center; /* Center text inside the page */
+    height: 80vh;
+    margin: 0; 
+    text-align: center; 
 }
 
-/* Background image container */
 .four_zero_four_bg {
     background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    background-size: contain; /* Ensure the image fits within the container */
-    background-repeat: no-repeat; /* Prevent tiling */
-    background-position: center; /* Center the image */
-    width: 100%; /* Full width */
-    height: 10%; /* Increase height for larger image */
-    display: flex; /* Flexbox for centering the 404 text */
-    justify-content: center; /* Horizontally center the 404 text */
-    align-items: center; /* Vertically center the 404 text */
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 100%;
+    height: 10%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
-/* 404 text */
 .four_zero_four_text {
-    font-size: 100px; /* Large font size for 404 */
-    color: #000; /* Ensure text color is visible */
-    margin: 0; /* Remove margin to avoid extra space */
+    font-size: 100px; 
+    color: #000; 
+    margin: 0;
     font-weight: lighter;
 }
 
-/* Content box styles */
 .contant_box_404 {
-    margin-top: 20px; /* Add some space above the content box */
+    margin-top: 20px; 
 }
 
 .contant_box_404 h3 {
